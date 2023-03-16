@@ -5,6 +5,9 @@
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.feedContainer {
   padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
