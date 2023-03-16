@@ -1,0 +1,72 @@
+.feedSec {
+  background-color: #f9f9ff;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.leftCard,
+.rightCard {
+  width: 555px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  display: flex;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+.leftCard:hover,
+.rightCard:hover {
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.leftCard:hover h4,
+.rightCard:hover h4 {
+  color: #fab700;
+}
+
+.feedParag {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777777;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.feedH4 {
+  color: #222222;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+.feedH5 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #777777;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.feedImg {
+  padding-right: 25px;
+}
+
+.description {
+  box-sizing: border-box;
+  padding-right: 40px;
+}
