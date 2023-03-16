@@ -1,2 +1,6 @@
 @import 'css-parts/header.css';
-@import 'css-parts/skaitl.css'
+@import 'css-parts/skaitl.css';
+
+html {
+  font-family: "Oswald", "Poppins", "Roboto" sans-serif;
+}
