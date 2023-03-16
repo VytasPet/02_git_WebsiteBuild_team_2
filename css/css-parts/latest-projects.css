@@ -27,6 +27,7 @@
 }
 .latest-projects-one-image {
   background-color: #edb81e;
+  position: relative;
 }
 .latest-projects-img {
   width: 100%;
@@ -37,12 +38,14 @@
 
 .latest-projects-hover {
   display: none;
+  position: absolute;
 }
 .latest-projects-one-image:hover .latest-projects-img {
   opacity: 0.2;
 }
 .latest-projects-one-image:hover .latest-projects-hover {
   display: block;
+  /* transform: translateY(0); */
 }
 
 .latest-projects-hover h4 {
@@ -51,6 +54,8 @@
   margin-bottom: 5px;
   font-size: 20px;
   color: #222222;
+  transition: transform 3.5s;
+  transform: translateY(80px);
 }
 .latest-projects-hover p {
   font-family: "Roboto", sans-serif;
@@ -58,4 +63,6 @@
   margin-left: 25px;
   margin-right: 25px;
   font-size: 14px;
+  transition: transform 3.5s;
+  transform: translateY(85px);
 }
