@@ -1,20 +1,19 @@
 .sponsors-area {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0;
 }
 .sponsors-container {
     padding: 12rem 0;
     align-items: center;
-    /* margin-left: 10.5rem;
-    margin-right: 10.5rem; */
-
 }
 .sponsors-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: space-between;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo .logo-img{
     opacity: 60%;
