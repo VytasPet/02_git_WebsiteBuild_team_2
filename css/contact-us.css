@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .contact-title a {
@@ -35,9 +36,13 @@
   font-family: "Roboto", sans-serif;
   color: white;
 }
+
+.contact-us-contacts-all {
+  margin-top: 80px;
+  display: flex;
+}
 .contact-us-contacts {
   list-style: none;
-  margin-top: 80px;
 }
 
 .contact-us-contacts-li {
@@ -63,4 +68,48 @@
   font-size: 14px;
   padding-top: 5px;
   color: #777;
+}
+.contact-us-contacts-text {
+  min-width: 100%;
+}
+.contact-us-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 50px;
+}
+
+.contact-us-form-input {
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 85%;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  border: 1px solid #0000001c;
+}
+
+.contact-us-form-text-area {
+  max-height: 60%;
+  border: 1px solid #0000001c;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 30px;
+}
+.contact-us-form-text-area::placeholder,
+.contact-us-form-input::placeholder {
+  color: #8c8c8c;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-btn {
+  grid-column: 1 / span 2;
+  justify-self: end;
+  max-width: fit-content;
+  background-color: #fab700;
+  color: white;
+  border: 1px solid #fab700;
+  padding: 18px 47px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
