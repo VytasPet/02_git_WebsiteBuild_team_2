@@ -7,6 +7,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* header ======================================= */
+
 .contact-title {
   background: url(../img/banner.jpg);
   background-repeat: no-repeat;
@@ -28,6 +31,10 @@
   font-family: "Roboto", sans-serif;
   color: white;
   text-decoration: none;
+  transition: all 0.3s;
+}
+.contact-title a:hover {
+  color: #fab700;
 }
 .fa-arrow-right-contact {
   margin-right: 5px;
@@ -38,10 +45,13 @@
   font-family: "Roboto", sans-serif;
   color: white;
 }
+/* /header ======================================= */
 
+/* contacts ======================================= */
 .contact-us-contacts-all {
   margin-top: 80px;
   display: flex;
+  margin-bottom: 120px;
 }
 .contact-us-contacts {
   list-style: none;
@@ -74,6 +84,9 @@
 .contact-us-contacts-text {
   min-width: 100%;
 }
+/* /contacts ======================================= */
+/* form ======================================= */
+
 .contact-us-form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -114,4 +127,10 @@
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  transition: all 0.3s;
 }
+.contact-btn:hover {
+  background-color: white;
+  color: #fab700;
+}
+/* /form ======================================= */
