@@ -1,11 +1,12 @@
 .sponsors-area {
-    padding: 12rem 0;
+    max-width: 1170px;
+    margin: 0;
 }
 .sponsors-container {
+    padding: 12rem 0;
     align-items: center;
-    max-width: 1170px;
-    margin-left: 10.5rem;
-    margin-right: 10.5rem;
+    /* margin-left: 10.5rem;
+    margin-right: 10.5rem; */
 
 }
 .sponsors-logo {
