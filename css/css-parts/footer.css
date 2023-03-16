@@ -51,6 +51,7 @@
   font-weight: 500;
   display: block;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .footer-inside3 {
@@ -82,7 +83,7 @@
   position: absolute;
   right: 1px;
   top: 27px;
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 .footer-email {
