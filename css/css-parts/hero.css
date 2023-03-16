@@ -12,11 +12,41 @@
   width: 100%;
   position: absolute;
 }
-.content {
+.hero h1 {
+  font-size: 4.5rem;
+  font-weight: normal;
+}
+.hero-content {
   position: absolute;
   text-align: center;
-  max-width: 40%;
+  max-width: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 100%);
+  transform: translate(-50%, 40%);
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+.hero span {
+  background-color: #fab702;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  color: black;
+}
+.hero-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.hero-btn {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #fab702;
+  background-color: #222222;
+  padding: 1.5rem 4rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.hero-btn:hover {
+  background-color: #fab702;
+  color: #222222;
 }
