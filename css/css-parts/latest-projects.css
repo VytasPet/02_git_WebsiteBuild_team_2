@@ -37,32 +37,34 @@
 }
 
 .latest-projects-hover {
-  display: none;
   position: absolute;
+  top: 30%;
 }
 .latest-projects-one-image:hover .latest-projects-img {
-  opacity: 0.2;
-}
-.latest-projects-one-image:hover .latest-projects-hover {
-  display: block;
-  /* transform: translateY(0); */
+  opacity: 0.1;
 }
 
+.latest-projects-one-image:hover .latest-projects-hover-h4 {
+  transition: transform 0.6s;
+  transform: translateY(-5px);
+  color: #222222;
+}
+.latest-projects-one-image:hover .latest-projects-hover-p {
+  transition: transform 0.6s;
+  transform: translateY(5px);
+  color: #222222;
+}
 .latest-projects-hover h4 {
   font-family: "Oswald", sans-serif;
   margin-top: 30px;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #222222;
-  transition: transform 3.5s;
-  transform: translateY(80px);
+  color: #22222200;
 }
 .latest-projects-hover p {
   font-family: "Roboto", sans-serif;
-  color: #222222;
+  color: #22222200;
   margin-left: 25px;
   margin-right: 25px;
   font-size: 14px;
-  transition: transform 3.5s;
-  transform: translateY(85px);
 }
