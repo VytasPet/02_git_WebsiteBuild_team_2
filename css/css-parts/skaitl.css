@@ -1,0 +1,23 @@
+.sk-section {
+  background-color: #fab700;
+  margin: 0 auto;
+  padding: 115px 0;
+}
+.sk-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: start;
+  max-width: 1170px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.sk-counter {
+  font-size: 48px;
+  margin: 0px 0px 10px;
+  font-family:'Oswald', sans-serif;
+}
+.sk {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;;
+}
