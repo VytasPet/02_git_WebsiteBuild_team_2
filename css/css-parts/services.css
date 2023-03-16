@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.services-container {
+  width: 1170px;
+}
+
+/* .services-flex {
+  width: 100%;
+  margin: 0 auto;
+  background: url(/img/home-banner.jpg) no-repeat scroll center center;
+  position: relative;
+  height: 250px;
+  z-index: -1;
+  text-align: center;
+} */
+
+.ServicesText {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 500;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.services-img {
+}
+
+.link-services1 {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 51.5%;
+  transition: 200ms;
+}
+
+.link-services2 {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transition: 200ms;
+}
+
+.link-services1:hover {
+  color: #fab700;
+}
+
+.link-services2:hover {
+  color: #fab700;
+}
+
+.fa-caret-right {
+  margin-left: 18px;
+}
+
+.hd-nav-item-trans {
+  transition: color 500ms;
+}
+
+.hd-nav-item-trans:hover {
+  color: #fab700;
+}
+
+.hd-active {
+  color: #fab700;
+}
+
+.offeredServices {
+  font-size: 32px;
+  font-weight: normal;
+  color: #222222;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 12px;
+}
+
+.offeresServicesP {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  font-family: 'Roboto', sans-serif;
+}
