@@ -13,9 +13,10 @@
   margin: 0 auto;
   background: url(/img/home-banner.jpg) no-repeat scroll center center;
   position: relative;
-  height: 250px;
+  height: 300px;
   /* z-index: -1; */
   text-align: center;
+  background-position: top, center;
 }
 
 .ServicesText {
