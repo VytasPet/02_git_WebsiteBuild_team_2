@@ -9,7 +9,7 @@
     justify-content: center; */
 }
 .img-hero {
-  height: 80vh;
+  height: 70vh;
   max-height: 700px;
   width: 100%;
   max-width: 1900px;
@@ -32,8 +32,9 @@
 .hero span {
   background-color: #fab702;
   border-radius: 0.4rem;
-  padding: 0.5rem;
   color: black;
+  font-size: 6rem;
+  font-weight: normal;
 }
 .hero-text {
   font-family: "Roboto", sans-serif;
