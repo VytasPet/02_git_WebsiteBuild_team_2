@@ -19,6 +19,18 @@
   border-radius: 10px;
   display: flex;
   padding: 40px;
+  transition: 0.5s;
+}
+
+.leftCard:hover,
+.rightCard:hover {
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.leftCard:hover h4,
+.rightCard:hover h4 {
+  color: #fab700;
 }
 
 .feedParag {
@@ -38,6 +50,7 @@
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
+  transition: 0.5s;
 }
 
 .feedH5 {
@@ -55,4 +68,5 @@
 
 .description {
   box-sizing: border-box;
+  padding-right: 40px;
 }
