@@ -29,12 +29,6 @@
   position: absolute;
 }
 
-.services-img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-}
-
 .link-services1 {
   font-size: 14px;
   color: #fff;
