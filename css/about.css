@@ -96,8 +96,7 @@ h1 {
   border: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  /* transition: color 500ms; */
-  transition: background-color 500ms;
+  transition: color, background-color 500ms;
 }
 
 .ab-btn:hover {
