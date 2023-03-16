@@ -9,6 +9,7 @@
 }
 .img-hero {
   height: 80vh;
+  max-height: 700px;
   width: 100%;
   max-width: 1900px;
   position: absolute;
