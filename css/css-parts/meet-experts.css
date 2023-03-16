@@ -48,14 +48,15 @@
   cursor: pointer;
   font-size: 15px;
   transition: color 0.3s;
-  color: black;
+  color: #777777;
 }
 .meet-exp-section a:hover {
-  color: white;
+  color: #222222;
 }
-.meet-exp-one-card:hover .meet-exp-card-img,
-.meet-exp-one-card:hover .meet-exp-icons {
+.meet-exp-one-card:hover .meet-exp-card-img {
   opacity: 0.2;
+}
+.meet-exp-one-card:hover .meet-exp-icons {
   display: block;
 }
 .meet-exp-card-img {
