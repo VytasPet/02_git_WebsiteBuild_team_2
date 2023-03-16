@@ -1,1 +1,5 @@
 @import "css-parts/header.css";
+
+html {
+  font-family: "Oswald", "Poppins", "Roboto" sans-serif;
+}

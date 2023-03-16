@@ -1,3 +1,84 @@
-.me .main-title {
-  font-size: 45px;
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.meet-exp-section {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.meet-exp-title-h2 {
+  margin-bottom: 12px;
+  font-size: 36px;
+  color: #222222;
+  font-family: "Oswald", sans-serif;
+}
+
+.meet-exp-title-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 75px;
+  color: #777777;
+}
+
+.meet-exp-cards {
+  display: flex;
+}
+.meet-exp-one-card {
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+.meet-exp-icons {
+  display: none;
+  position: absolute;
+  left: 34%;
+  bottom: 59%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.meet-exp-section a {
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.3s;
+  color: #777777;
+}
+.meet-exp-section a:hover {
+  color: #222222;
+}
+.meet-exp-one-card:hover .meet-exp-card-img {
+  opacity: 0.2;
+}
+.meet-exp-one-card:hover .meet-exp-icons {
+  display: block;
+}
+.meet-exp-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  transition: all 0.3s;
+}
+.meet-exp-yellow {
+  background-color: #edb81e;
+}
+
+.meet-exp-card-text-h4 {
+  font-family: "Oswald", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+.meet-exp-card-text-p {
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+  font-size: 14px;
 }
