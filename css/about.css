@@ -1,5 +1,111 @@
-.container {
-  max-width: 1170px;
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
 }
 
-/* content: "\f0da" */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.ab-hero {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/img/home-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.ab-hero div a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 500ms;
+}
+
+.ab-hero div a:hover {
+  color: #fab700;
+}
+
+.ab-hero__home-link {
+  position: relative;
+  margin-right: 3.2rem;
+}
+
+.ab-hero__home-link::before {
+  position: absolute;
+  right: -25px;
+  content: ' \25BA';
+}
+
+h1 {
+  font-size: 4.8rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.ab-about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 12rem 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  column-gap: 9.5rem;
+}
+
+.ab-about-us__left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.ab-h2 {
+  font-size: 3.6rem;
+  margin-bottom: 22px;
+  color: #222;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.ab-text {
+  font-size: 14px;
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  margin-bottom: 45px;
+  line-height: 24px;
+}
+
+.ab-btn {
+  background-color: #222;
+  color: white;
+  padding: 0 2.8rem;
+  font-size: 14px;
+  line-height: 40px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* transition: color 500ms; */
+  transition: background-color 500ms;
+}
+
+.ab-btn:hover {
+  background: #fab700;
+  color: #222222;
+  cursor: pointer;
+}
+
+.ab-about-us img {
+  height: 450px;
+}
