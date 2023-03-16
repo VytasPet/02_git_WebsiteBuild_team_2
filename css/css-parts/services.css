@@ -99,6 +99,9 @@
 
 .grid-services {
   margin-top: 100px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
