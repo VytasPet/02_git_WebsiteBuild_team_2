@@ -10,6 +10,8 @@
 .contact-title {
   background: url(../img/banner.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   text-align: center;
   margin-top: 146px;
