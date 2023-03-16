@@ -1,10 +1,13 @@
-
-@import 'css-parts/header.css';
-@import 'css-parts/skaitl.css';
-@import 'css-pars/footer.css';
-
+@import "css-parts/header.css";
+@import "css-parts/skaitl.css";
+/* @import "css-parts/footer.css"; */
+@import "css-parts/hero.css";
+@import "css-parts/latest-projects.css";
 
 html {
   font-family: "Oswald", "Poppins", "Roboto" sans-serif;
 }
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
