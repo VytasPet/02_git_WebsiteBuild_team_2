@@ -13,6 +13,7 @@
   width: 100%;
   max-width: 1900px;
   position: absolute;
+  object-fit: cover;
 }
 .hero h1 {
   font-size: 3rem;
