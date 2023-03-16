@@ -1,0 +1,21 @@
+.sk-section {
+  background-color: #fab700;
+  margin: 0 auto;
+}
+.sk-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: start;
+  max-width: 1170px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.sk-counter {
+  font-size: 48px;
+  margin: 70px 0px 10px;
+}
+.sk {
+  font-size: 14px;
+  margin: 0 0 70px;
+}
