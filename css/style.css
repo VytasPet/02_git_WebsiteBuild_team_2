@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 @import 'css-parts/header.css';
 @import 'css-pars/footer.css';
+=======
+@import "css-parts/header.css";
+
+html {
+  font-family: "Oswald", "Poppins", "Roboto" sans-serif;
+}
+>>>>>>> 8bf9ddc773d78bd718d427e7b19a7463c6d30111
