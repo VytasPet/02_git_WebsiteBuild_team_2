@@ -4,15 +4,15 @@
   margin: 0;
 }
 
-/* .container {
-  max-width: 1170px;
+.container {
+  max-width: 960px;
   margin: 0 auto;
-} */
+}
 
 .services-flex {
   color: white;
-  font-family: 'Roboto', sans-serif;
-  background-image: url('/img/home-banner.jpg');
+  font-family: "Roboto", sans-serif;
+  background-image: url("/img/home-banner.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
@@ -26,7 +26,7 @@
 
 .ServicesText {
   font-size: 48px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-weight: 500;
   /* top: 44%;
@@ -37,7 +37,7 @@
 .link-services1 {
   font-size: 14px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   /* position: absolute; */
@@ -49,7 +49,7 @@
 .link-services2 {
   font-size: 14px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   /* position: absolute;
@@ -92,7 +92,7 @@
   font-size: 32px;
   font-weight: normal;
   color: #222222;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-bottom: 12px;
 }
 
@@ -100,7 +100,7 @@
   font-size: 14px;
   line-height: 24px;
   color: #777777;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid-services {
@@ -121,13 +121,13 @@
 .service-item-text {
   font-size: 20px;
   color: #222222;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
 }
 
 .service-item-text-p {
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 24px;
   color: #777777;
 }
