@@ -51,39 +51,49 @@ header {
   color: #fab700;
 }
 /* /header ======================================= */
-.contact-title {
-  background: url(../img/banner.jpg);
+
+.contact-hero {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-image: url("/img/home-banner.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
-  text-align: center;
-  height: 300px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  height: 300px;
   margin-bottom: 120px;
 }
 
-.contact-title a {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: white;
+.contact-hero div a {
   text-decoration: none;
-  transition: all 0.3s;
+  color: white;
+  font-size: 14px;
+  transition: color 500ms;
 }
-.contact-title a:hover {
+
+.contact-hero div a:hover {
   color: #fab700;
 }
-.fa-arrow-right-contact {
-  margin-right: 5px;
-  margin-left: 15px;
+
+.contact-hero__home-link {
+  position: relative;
+  margin-right: 32px;
 }
-.contact-title h1 {
+
+.contact-hero__home-link::before {
+  position: absolute;
+  right: -25px;
+  content: " \25BA";
+}
+
+h1 {
   font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  color: white;
+  margin: 0;
+  font-weight: 500;
 }
 
 /* contacts ======================================= */
@@ -272,7 +282,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 960px;
+  width: 1170px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 85px;
