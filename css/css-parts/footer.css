@@ -14,7 +14,7 @@
 
 .footer-bendras {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding-right: -15px;
   padding-left: -15px;
   margin-right: auto;
@@ -32,6 +32,7 @@
 
 .footer-inside1 {
   width: 262.5px;
+  margin-right: 50px;
 }
 
 .footer-inside2 {
