@@ -1,22 +1,27 @@
 * {
   box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
 }
 
-/* .services-container {
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
+/* .container {
+  max-width: 1170px;
+  margin: 0 auto;
+} */
 
 .services-flex {
-  width: 100%;
-  margin: 0 auto;
-  background: url(/img/home-banner.jpg) no-repeat scroll center center;
-  position: relative;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('/img/home-banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 300px;
-  /* z-index: -1; */
-  text-align: center;
-  background-position: top, center;
 }
 
 .ServicesText {
@@ -24,9 +29,9 @@
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 500;
-  top: 44%;
-  left: 45%;
-  position: absolute;
+  /* top: 44%;
+  left: 45%; */
+  /* position: absolute; */
 }
 
 .link-services1 {
@@ -35,9 +40,9 @@
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  position: absolute;
-  top: 50%;
-  left: 47.5%;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 47.5%; */
   transition: 200ms;
 }
 
@@ -47,9 +52,9 @@
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
-  left: 51.5%;
+  left: 51.5%; */
   transition: 200ms;
 }
 
@@ -63,6 +68,7 @@
 
 .fa-caret-right {
   margin-left: 10px;
+  margin-right: 6px;
 }
 
 .hd-nav-item-trans {
