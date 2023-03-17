@@ -48,9 +48,10 @@
   content: " \25BA";
 }
 
-h1 {
+.contact-hero h1 {
   font-size: 48px;
-  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
   font-weight: 500;
 }
 
