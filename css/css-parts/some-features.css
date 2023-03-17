@@ -76,6 +76,6 @@
   transition: all 300ms linear 0s;
 }
 .features-one-item:hover .features-card-title {
-    color: #fab700;
-    transition: all 300ms linear 0s;
+  color: #fab700;
+  transition: all 300ms linear 0s;
 }
