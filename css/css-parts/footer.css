@@ -96,6 +96,7 @@
   color: #fab700;
   text-decoration: none;
   font-size: 14px;
+  align-items: center;
 }
 
 .copyright {
@@ -106,14 +107,15 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 85px;
+  align-items: baseline;
 }
 
 .footer-icon {
   /* display: flex; */
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  /* font-size: 100%; */
+  /* align-items: center; */
+  font-size: 10em;
 }
 
 .footer-icons-links {
