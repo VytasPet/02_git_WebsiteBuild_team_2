@@ -1,6 +1,9 @@
 @import "css-parts/header.css";
 @import "css-parts/footer.css";
 @import "css-parts/skaitl.css";
+@import "css-parts/meet-experts.css";
+@import "css-parts/feedback.css";
+@import "css-parts/sponsors.css";
 
 * {
   box-sizing: border-box;
