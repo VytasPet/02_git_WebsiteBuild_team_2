@@ -1,5 +1,6 @@
 @import "css-parts/header.css";
 @import "css-parts/footer.css";
+@import "css-parts/skaitl.css";
 
 * {
   box-sizing: border-box;
