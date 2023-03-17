@@ -6,7 +6,7 @@
 @import "css-parts/meet-experts.css";
 @import "css-parts/feedback.css";
 @import "css-parts/sponsors.css";
-
+@import "services.css";
 html {
   font-family: "Oswald", "Poppins", "Roboto" sans-serif;
 }
