@@ -74,17 +74,25 @@
   color: #99999999;
 }
 
+.fa-arrow-right {
+  font-size: 14px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+/* mygtuka tvarkem */
 .footer-button {
   background: #fab700;
   border-radius: 50%;
   font-weight: 300;
   line-height: 30px;
   height: 40px;
+  width: 40px;
   cursor: pointer;
   border: 1px solid transparent;
   position: absolute;
   right: 1px;
-  top: 27px;
+  top: 26px;
   padding-left: 12px;
 }
 
